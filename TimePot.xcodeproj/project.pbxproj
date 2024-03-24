@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69450E2BB0754D008EEB38 /* BaseViewController.swift */; };
 		1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */; };
+		1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */; };
 		1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F52B90B51A0022DF71 /* AppDelegate.swift */; };
 		1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */; };
 		1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7878FE2B90B51B0022DF71 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		1C69450E2BB0754D008EEB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableKeyboardViewController.swift; sourceTree = "<group>"; };
+		1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
 		1C7878F22B90B51A0022DF71 /* TimePot-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimePot-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7878F52B90B51A0022DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -111,6 +113,7 @@
 				1C7879372B90C41A0022DF71 /* RootViewController.swift */,
 				1C69450E2BB0754D008EEB38 /* BaseViewController.swift */,
 				1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */,
+				1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */,
 				1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */,
 				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,
+				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

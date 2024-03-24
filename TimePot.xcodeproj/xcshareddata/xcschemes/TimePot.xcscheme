@@ -35,8 +35,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1C7879072B90B51B0022DF71"
-               BuildableName = "TimePotTests.xctest"
-               BlueprintName = "TimePotTests"
+               BuildableName = "UnitTests.xctest"
+               BlueprintName = "UnitTests"
                ReferencedContainer = "container:TimePot.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -48,6 +48,17 @@
                BlueprintIdentifier = "1C7879112B90B51B0022DF71"
                BuildableName = "TimePotUITests.xctest"
                BlueprintName = "TimePotUITests"
+               ReferencedContainer = "container:TimePot.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1C69451C2BB09705008EEB38"
+               BuildableName = "UITests.xctest"
+               BlueprintName = "UITests"
                ReferencedContainer = "container:TimePot.xcodeproj">
             </BuildableReference>
          </TestableReference>

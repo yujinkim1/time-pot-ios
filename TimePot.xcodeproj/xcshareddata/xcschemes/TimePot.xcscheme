@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1C7878F12B90B51A0022DF71"
-               BuildableName = "App.app"
-               BlueprintName = "App"
-               ReferencedContainer = "container:App.xcodeproj">
+               BuildableName = "TimePot-Debug.app"
+               BlueprintName = "TimePot"
+               ReferencedContainer = "container:TimePot.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1C7879072B90B51B0022DF71"
-               BuildableName = "AppTests.xctest"
-               BlueprintName = "AppTests"
-               ReferencedContainer = "container:App.xcodeproj">
+               BuildableName = "TimePotTests.xctest"
+               BlueprintName = "TimePotTests"
+               ReferencedContainer = "container:TimePot.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,15 +46,15 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1C7879112B90B51B0022DF71"
-               BuildableName = "AppUITests.xctest"
-               BlueprintName = "AppUITests"
-               ReferencedContainer = "container:App.xcodeproj">
+               BuildableName = "TimePotUITests.xctest"
+               BlueprintName = "TimePotUITests"
+               ReferencedContainer = "container:TimePot.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
-      buildConfiguration = "Release"
+      buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
@@ -62,15 +62,17 @@
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
-      allowLocationSimulation = "YES">
+      allowLocationSimulation = "YES"
+      consoleMode = "0"
+      structuredConsoleMode = "1">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1C7878F12B90B51A0022DF71"
-            BuildableName = "App.app"
-            BlueprintName = "App"
-            ReferencedContainer = "container:App.xcodeproj">
+            BuildableName = "TimePot-Debug.app"
+            BlueprintName = "TimePot"
+            ReferencedContainer = "container:TimePot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -85,14 +87,14 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1C7878F12B90B51A0022DF71"
-            BuildableName = "App.app"
-            BlueprintName = "App"
-            ReferencedContainer = "container:App.xcodeproj">
+            BuildableName = "TimePot-Debug.app"
+            BlueprintName = "TimePot"
+            ReferencedContainer = "container:TimePot.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Debug">
+      buildConfiguration = "Test">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"

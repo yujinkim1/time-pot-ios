@@ -13,6 +13,7 @@
 		1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */; };
 		1C6945202BB09705008EEB38 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69451F2BB09705008EEB38 /* UITests.swift */; };
 		1C6945222BB09705008EEB38 /* UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945212BB09705008EEB38 /* UITestsLaunchTests.swift */; };
+		1C69452E2BB1BB13008EEB38 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */; };
 		1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F52B90B51A0022DF71 /* AppDelegate.swift */; };
 		1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */; };
 		1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7878FE2B90B51B0022DF71 /* Assets.xcassets */; };
@@ -46,6 +47,7 @@
 		1C69451D2BB09705008EEB38 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C69451F2BB09705008EEB38 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		1C6945212BB09705008EEB38 /* UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		1C7878F22B90B51A0022DF71 /* TimePot-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimePot-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7878F52B90B51A0022DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 				1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */,
 				1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */,
 				1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */,
+				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -222,6 +225,8 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = 1C7878E92B90B51A0022DF71;
 			productRefGroup = 1C7878F32B90B51A0022DF71 /* Products */;
@@ -247,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C69452E2BB1BB13008EEB38 /* InfoPlist.xcstrings in Resources */,
 				1C7879022B90B51B0022DF71 /* LaunchScreen.storyboard in Resources */,
 				1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */,
 			);

@@ -14,12 +14,16 @@ class BaseCollectionViewCell<M>: UICollectionViewCell {
     
     var model: M? {
         willSet {
-            if let model = newValue {
-                self.bind(model: model)
-                
-                debugPrint("\(self).\(String(describing: newValue)) is available.")
+            if newValue != nil {
+                debugPrint("\(self) model is available.")
             } else {
-                debugPrint("\(self).\(String(describing: newValue)) is not available.")
+                debugPrint("\(self) model is not available.")
+            }
+        }
+        
+        didSet {
+            if let model = self.model {
+                self.bind(model: model)
             }
         }
     }
@@ -27,7 +31,7 @@ class BaseCollectionViewCell<M>: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        self.setLayout()
+        self.setLayouts()
         self.setConstraints()
         self.setIfNeeds()
     }
@@ -39,7 +43,7 @@ class BaseCollectionViewCell<M>: UICollectionViewCell {
     
     func bind(model: M) {}
     
-    func setLayout() {}
+    func setLayouts() {}
     
     func setConstraints() {}
     

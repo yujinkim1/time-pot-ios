@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04FF682BB5AA0C0052B129 /* MainViewController.swift */; };
 		1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69450E2BB0754D008EEB38 /* BaseViewController.swift */; };
 		1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */; };
 		1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C04FF682BB5AA0C0052B129 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1C69450E2BB0754D008EEB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableKeyboardViewController.swift; sourceTree = "<group>"; };
 		1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */,
 				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 				1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */,
+				1C04FF682BB5AA0C0052B129 /* MainViewController.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */,
 				1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */,
 				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,
+				1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */,
 				1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */,
 				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
 			);

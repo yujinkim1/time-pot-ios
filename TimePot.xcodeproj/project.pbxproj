@@ -22,6 +22,7 @@
 		1C7879022B90B51B0022DF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */; };
 		1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7879372B90C41A0022DF71 /* RootViewController.swift */; };
 		1C91F9702B90C941001930DB /* FileHeaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91F96F2B90C941001930DB /* FileHeaderTest.swift */; };
+		1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		1C7879082B90B51B0022DF71 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C7879372B90C41A0022DF71 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1C91F96F2B90C941001930DB /* FileHeaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHeaderTest.swift; sourceTree = "<group>"; };
+		1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 		1C7878F42B90B51A0022DF71 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1CF7EEFD2BB6FED20026CB6F /* Extension */,
 				1C7878F52B90B51A0022DF71 /* AppDelegate.swift */,
 				1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */,
 				1C7878FE2B90B51B0022DF71 /* Assets.xcassets */,
@@ -143,6 +146,14 @@
 				1C91F96F2B90C941001930DB /* FileHeaderTest.swift */,
 			);
 			path = UnitTests;
+			sourceTree = "<group>";
+		};
+		1CF7EEFD2BB6FED20026CB6F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +306,7 @@
 				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,
 				1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */,
 				1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */,
+				1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */,
 				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -25,6 +25,7 @@
 		1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */; };
 		1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF012BB70B8F0026CB6F /* Mode.swift */; };
 		1CF7EF052BB725B60026CB6F /* NotFoundModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF042BB725B60026CB6F /* NotFoundModeTableViewCell.swift */; };
+		1CF7EF082BB72D7D0026CB6F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF072BB72D7D0026CB6F /* UITableView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1CF7EF012BB70B8F0026CB6F /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
 		1CF7EF042BB725B60026CB6F /* NotFoundModeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundModeTableViewCell.swift; sourceTree = "<group>"; };
+		1CF7EF072BB72D7D0026CB6F /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */,
+				1CF7EF072BB72D7D0026CB6F /* UITableView+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */,
 				1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */,
 				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
+				1CF7EF082BB72D7D0026CB6F /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

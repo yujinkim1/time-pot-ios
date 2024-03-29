@@ -24,6 +24,7 @@
 		1C91F9702B90C941001930DB /* FileHeaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91F96F2B90C941001930DB /* FileHeaderTest.swift */; };
 		1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */; };
 		1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF012BB70B8F0026CB6F /* Mode.swift */; };
+		1CF7EF052BB725B60026CB6F /* NotFoundModeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF042BB725B60026CB6F /* NotFoundModeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 		1C91F96F2B90C941001930DB /* FileHeaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHeaderTest.swift; sourceTree = "<group>"; };
 		1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1CF7EF012BB70B8F0026CB6F /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
+		1CF7EF042BB725B60026CB6F /* NotFoundModeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundModeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 				1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */,
 				1C04FF682BB5AA0C0052B129 /* MainViewController.swift */,
+				1CF7EF042BB725B60026CB6F /* NotFoundModeTableViewCell.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
 				1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */,
 				1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */,
+				1CF7EF052BB725B60026CB6F /* NotFoundModeTableViewCell.swift in Sources */,
 				1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */,
 				1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */,
 				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,

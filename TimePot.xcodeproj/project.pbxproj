@@ -96,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C4FE60A2BBEE443005DDE67 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1C7878FE2B90B51B0022DF71 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		1C69451E2BB09705008EEB38 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,12 +136,12 @@
 		1C7878F42B90B51A0022DF71 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C4FE60A2BBEE443005DDE67 /* Resource */,
 				1CD203732BB9918C009DA520 /* Basement */,
 				1CF7EF002BB70B800026CB6F /* Model */,
 				1CF7EEFD2BB6FED20026CB6F /* Extension */,
 				1C7878F52B90B51A0022DF71 /* AppDelegate.swift */,
 				1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */,
-				1C7878FE2B90B51B0022DF71 /* Assets.xcassets */,
 				1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */,
 				1C7879032B90B51B0022DF71 /* Info.plist */,
 				1C7879372B90C41A0022DF71 /* RootViewController.swift */,

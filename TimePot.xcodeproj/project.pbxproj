@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C04FF682BB5AA0C0052B129 /* MainViewController.swift */; };
 		1C4FE6122BBEF055005DDE67 /* BaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6112BBEF055005DDE67 /* BaseTableViewCell.swift */; };
+		1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6142BBEF422005DDE67 /* NewModeCell.swift */; };
+		1C4FE6172BBF0BE7005DDE67 /* ModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */; };
+		1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6182BBF15AF005DDE67 /* MainView.swift */; };
 		1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69450E2BB0754D008EEB38 /* BaseViewController.swift */; };
 		1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */; };
 		1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */; };
@@ -49,6 +52,9 @@
 /* Begin PBXFileReference section */
 		1C04FF682BB5AA0C0052B129 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1C4FE6112BBEF055005DDE67 /* BaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewCell.swift; sourceTree = "<group>"; };
+		1C4FE6142BBEF422005DDE67 /* NewModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewModeCell.swift; sourceTree = "<group>"; };
+		1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCell.swift; sourceTree = "<group>"; };
+		1C4FE6182BBF15AF005DDE67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1C69450E2BB0754D008EEB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableKeyboardViewController.swift; sourceTree = "<group>"; };
 		1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -109,6 +115,7 @@
 		1C4FE60E2BBEEE2E005DDE67 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				1C4FE6132BBEF3F2005DDE67 /* Cell */,
 				1C4FE6102BBEEE76005DDE67 /* ViewController */,
 				1C4FE60F2BBEEE3C005DDE67 /* View */,
 			);
@@ -119,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF7EF042BB725B60026CB6F /* NotFoundModeView.swift */,
+				1C4FE6182BBF15AF005DDE67 /* MainView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -129,6 +137,15 @@
 				1C04FF682BB5AA0C0052B129 /* MainViewController.swift */,
 			);
 			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1C4FE6132BBEF3F2005DDE67 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1C4FE6142BBEF422005DDE67 /* NewModeCell.swift */,
+				1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		1C69451E2BB09705008EEB38 /* UITests */ = {
@@ -360,6 +377,7 @@
 			files = (
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
 				1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */,
+				1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */,
 				1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */,
 				1CF7EF052BB725B60026CB6F /* NotFoundModeView.swift in Sources */,
 				1C4FE6122BBEF055005DDE67 /* BaseTableViewCell.swift in Sources */,
@@ -368,9 +386,11 @@
 				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,
 				1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */,
 				1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */,
+				1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */,
 				1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */,
 				1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */,
 				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
+				1C4FE6172BBF0BE7005DDE67 /* ModeCell.swift in Sources */,
 				1CF7EF082BB72D7D0026CB6F /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

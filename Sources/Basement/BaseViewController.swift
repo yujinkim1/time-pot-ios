@@ -7,12 +7,23 @@
 
 import UIKit
 
-class BaseViewController: UIViewController {
+class BaseViewController<View: UIView>: UIViewController {
+    var rootview: View {
+        self.view as! View
+    }
+    
+    @available(*, unavailable)
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override func loadView() {
+        self.view = View()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.setLayouts()
-        self.setConstraints()
         self.setIfNeeds()
     }
     
@@ -25,10 +36,6 @@ class BaseViewController: UIViewController {
     }
     
     func setIfDeinitializes() {}
-    
-    func setLayouts() {}
-    
-    func setConstraints() {}
     
     func setIfNeeds() {}
 }

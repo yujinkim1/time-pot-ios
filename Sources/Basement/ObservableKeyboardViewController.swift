@@ -9,7 +9,7 @@ import UIKit
 
 /// 키보드가 필요할 때 사용하는 뷰 컨트롤러
 ///
-class ObservableKeyboardViewController: BaseViewController {
+class ObservableKeyboardViewController: BaseViewController<UIView> {
     override func viewDidLoad() {
         super.viewDidLoad()
     }

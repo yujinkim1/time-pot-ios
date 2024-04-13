@@ -12,10 +12,12 @@
 		1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6142BBEF422005DDE67 /* NewModeCell.swift */; };
 		1C4FE6172BBF0BE7005DDE67 /* ModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */; };
 		1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6182BBF15AF005DDE67 /* MainView.swift */; };
+		1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */; };
+		1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */; };
+		1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6292BC02561005DDE67 /* TimeRecord.swift */; };
 		1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69450E2BB0754D008EEB38 /* BaseViewController.swift */; };
 		1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */; };
 		1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */; };
-		1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */; };
 		1C6945202BB09705008EEB38 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69451F2BB09705008EEB38 /* UITests.swift */; };
 		1C6945222BB09705008EEB38 /* UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945212BB09705008EEB38 /* UITestsLaunchTests.swift */; };
 		1C69452E2BB1BB13008EEB38 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */; };
@@ -24,7 +26,6 @@
 		1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */; };
 		1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7878FE2B90B51B0022DF71 /* Assets.xcassets */; };
 		1C7879022B90B51B0022DF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */; };
-		1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7879372B90C41A0022DF71 /* RootViewController.swift */; };
 		1C91F9702B90C941001930DB /* FileHeaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91F96F2B90C941001930DB /* FileHeaderTest.swift */; };
 		1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */; };
 		1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF012BB70B8F0026CB6F /* Mode.swift */; };
@@ -55,10 +56,12 @@
 		1C4FE6142BBEF422005DDE67 /* NewModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewModeCell.swift; sourceTree = "<group>"; };
 		1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCell.swift; sourceTree = "<group>"; };
 		1C4FE6182BBF15AF005DDE67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataService.swift; sourceTree = "<group>"; };
+		1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
+		1C4FE6292BC02561005DDE67 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
 		1C69450E2BB0754D008EEB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableKeyboardViewController.swift; sourceTree = "<group>"; };
 		1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
-		1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarViewController.swift; sourceTree = "<group>"; };
 		1C69451D2BB09705008EEB38 /* UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C69451F2BB09705008EEB38 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		1C6945212BB09705008EEB38 /* UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -71,7 +74,6 @@
 		1C7879012B90B51B0022DF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7879032B90B51B0022DF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1C7879082B90B51B0022DF71 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7879372B90C41A0022DF71 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		1C91F96F2B90C941001930DB /* FileHeaderTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHeaderTest.swift; sourceTree = "<group>"; };
 		1CF7EEFE2BB6FEE70026CB6F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		1CF7EF012BB70B8F0026CB6F /* Mode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mode.swift; sourceTree = "<group>"; };
@@ -148,6 +150,22 @@
 			path = Cell;
 			sourceTree = "<group>";
 		};
+		1C4FE6232BC009A0005DDE67 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		1C4FE6262BC01CBF005DDE67 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
 		1C69451E2BB09705008EEB38 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +198,8 @@
 		1C7878F42B90B51A0022DF71 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C4FE6262BC01CBF005DDE67 /* Utility */,
+				1C4FE6232BC009A0005DDE67 /* Service */,
 				1C4FE60E2BBEEE2E005DDE67 /* Presentation */,
 				1C4FE60A2BBEE443005DDE67 /* Resource */,
 				1CD203732BB9918C009DA520 /* Basement */,
@@ -189,7 +209,6 @@
 				1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */,
 				1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */,
 				1C7879032B90B51B0022DF71 /* Info.plist */,
-				1C7879372B90C41A0022DF71 /* RootViewController.swift */,
 				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 			);
 			path = Sources;
@@ -208,7 +227,6 @@
 			children = (
 				1C69450E2BB0754D008EEB38 /* BaseViewController.swift */,
 				1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */,
-				1C6945142BB083DC008EEB38 /* NavigationBarViewController.swift */,
 				1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */,
 				1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */,
 				1C4FE6112BBEF055005DDE67 /* BaseTableViewCell.swift */,
@@ -229,6 +247,7 @@
 			isa = PBXGroup;
 			children = (
 				1CF7EF012BB70B8F0026CB6F /* Mode.swift */,
+				1C4FE6292BC02561005DDE67 /* TimeRecord.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -376,16 +395,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
+				1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */,
+				1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */,
 				1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */,
 				1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */,
 				1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */,
+				1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */,
 				1CF7EF052BB725B60026CB6F /* NotFoundModeView.swift in Sources */,
 				1C4FE6122BBEF055005DDE67 /* BaseTableViewCell.swift in Sources */,
 				1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */,
 				1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */,
-				1C7879382B90C41A0022DF71 /* RootViewController.swift in Sources */,
 				1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */,
-				1C6945152BB083DC008EEB38 /* NavigationBarViewController.swift in Sources */,
 				1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */,
 				1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */,
 				1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */,

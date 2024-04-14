@@ -15,8 +15,10 @@
 		1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */; };
 		1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */; };
 		1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6292BC02561005DDE67 /* TimeRecord.swift */; };
-		1C585BD12BCC23EC001CACC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C585BD02BCC23EC001CACC6 /* GoogleService-Info.plist */; };
 		1C585BD42BCC2562001CACC6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1C585BD32BCC2562001CACC6 /* FirebaseAnalytics */; };
+		1C585BDD2BCC289B001CACC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585BDA2BCC289B001CACC6 /* AppDelegate.swift */; };
+		1C585BDE2BCC289B001CACC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585BDB2BCC289B001CACC6 /* SceneDelegate.swift */; };
+		1C585BE02BCC2951001CACC6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1C585BDF2BCC2951001CACC6 /* GoogleService-Info.plist */; };
 		1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69450E2BB0754D008EEB38 /* BaseViewController.swift */; };
 		1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */; };
 		1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */; };
@@ -24,8 +26,6 @@
 		1C6945222BB09705008EEB38 /* UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C6945212BB09705008EEB38 /* UITestsLaunchTests.swift */; };
 		1C69452E2BB1BB13008EEB38 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */; };
 		1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */; };
-		1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F52B90B51A0022DF71 /* AppDelegate.swift */; };
-		1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */; };
 		1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C7878FE2B90B51B0022DF71 /* Assets.xcassets */; };
 		1C7879022B90B51B0022DF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */; };
 		1C91F9702B90C941001930DB /* FileHeaderTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C91F96F2B90C941001930DB /* FileHeaderTest.swift */; };
@@ -61,7 +61,9 @@
 		1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataService.swift; sourceTree = "<group>"; };
 		1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
 		1C4FE6292BC02561005DDE67 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
-		1C585BD02BCC23EC001CACC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1C585BDA2BCC289B001CACC6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C585BDB2BCC289B001CACC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C585BDF2BCC2951001CACC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		1C69450E2BB0754D008EEB38 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		1C6945102BB07A38008EEB38 /* ObservableKeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableKeyboardViewController.swift; sourceTree = "<group>"; };
 		1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -71,8 +73,6 @@
 		1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableImageView.swift; sourceTree = "<group>"; };
 		1C7878F22B90B51A0022DF71 /* TimePot-Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TimePot-Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1C7878F52B90B51A0022DF71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C7878FE2B90B51B0022DF71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C7879012B90B51B0022DF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C7879032B90B51B0022DF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 		1C4FE60A2BBEE443005DDE67 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				1C585BD02BCC23EC001CACC6 /* GoogleService-Info.plist */,
+				1C585BDF2BCC2951001CACC6 /* GoogleService-Info.plist */,
 				1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */,
 				1C7878FE2B90B51B0022DF71 /* Assets.xcassets */,
 			);
@@ -172,6 +172,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		1C585BDC2BCC289B001CACC6 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				1C585BDA2BCC289B001CACC6 /* AppDelegate.swift */,
+				1C585BDB2BCC289B001CACC6 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		1C69451E2BB09705008EEB38 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,6 +213,7 @@
 		1C7878F42B90B51A0022DF71 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C585BDC2BCC289B001CACC6 /* Application */,
 				1C4FE6262BC01CBF005DDE67 /* Utility */,
 				1C4FE6232BC009A0005DDE67 /* Service */,
 				1C4FE60E2BBEEE2E005DDE67 /* Presentation */,
@@ -211,8 +221,6 @@
 				1CD203732BB9918C009DA520 /* Basement */,
 				1CF7EF002BB70B800026CB6F /* Model */,
 				1CF7EEFD2BB6FED20026CB6F /* Extension */,
-				1C7878F52B90B51A0022DF71 /* AppDelegate.swift */,
-				1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */,
 				1C7879032B90B51B0022DF71 /* Info.plist */,
 				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 			);
@@ -377,7 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C69452E2BB1BB13008EEB38 /* InfoPlist.xcstrings in Resources */,
-				1C585BD12BCC23EC001CACC6 /* GoogleService-Info.plist in Resources */,
+				1C585BE02BCC2951001CACC6 /* GoogleService-Info.plist in Resources */,
 				1C7879022B90B51B0022DF71 /* LaunchScreen.storyboard in Resources */,
 				1C7878FF2B90B51B0022DF71 /* Assets.xcassets in Resources */,
 			);
@@ -409,20 +417,20 @@
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
 				1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */,
 				1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */,
-				1C7878F62B90B51A0022DF71 /* AppDelegate.swift in Sources */,
 				1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */,
 				1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */,
 				1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */,
 				1CF7EF052BB725B60026CB6F /* NotFoundModeView.swift in Sources */,
 				1C4FE6122BBEF055005DDE67 /* BaseTableViewCell.swift in Sources */,
 				1C69450F2BB0754D008EEB38 /* BaseViewController.swift in Sources */,
-				1C7878F82B90B51A0022DF71 /* SceneDelegate.swift in Sources */,
 				1C04FF692BB5AA0C0052B129 /* MainViewController.swift in Sources */,
 				1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */,
+				1C585BDE2BCC289B001CACC6 /* SceneDelegate.swift in Sources */,
 				1CF7EEFF2BB6FEE70026CB6F /* UIView+Extension.swift in Sources */,
 				1CF7EF022BB70B8F0026CB6F /* Mode.swift in Sources */,
 				1C6945132BB07F7D008EEB38 /* BaseCollectionViewCell.swift in Sources */,
 				1C4FE6172BBF0BE7005DDE67 /* ModeCell.swift in Sources */,
+				1C585BDD2BCC289B001CACC6 /* AppDelegate.swift in Sources */,
 				1CF7EF082BB72D7D0026CB6F /* UITableView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

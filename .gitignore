@@ -37,3 +37,7 @@ DerivedData/
 !*.xcodeproj/xcshareddata/
 !*.xcworkspace/contents.xcworkspacedata
 /*.gcno
+
+### Firebase ###
+
+Sources/Resource/GoogleService-Info.plist

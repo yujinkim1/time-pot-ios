@@ -7,11 +7,6 @@
 
 import UIKit
 
-/*
- 1. 새로운 데이터를 동적으로 추가할 수 있도록 하기
- 2. view = contentView
- */
-
 final class MainViewController: BaseViewController<MainView> {
     var isAddMode = false
     var modeOfList = [String]()

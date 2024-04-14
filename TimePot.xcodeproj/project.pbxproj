@@ -109,6 +109,7 @@
 		1C4FE60A2BBEE443005DDE67 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */,
 				1C7878FE2B90B51B0022DF71 /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -207,7 +208,6 @@
 				1CF7EEFD2BB6FED20026CB6F /* Extension */,
 				1C7878F52B90B51A0022DF71 /* AppDelegate.swift */,
 				1C7878F72B90B51A0022DF71 /* SceneDelegate.swift */,
-				1C7879002B90B51B0022DF71 /* LaunchScreen.storyboard */,
 				1C7879032B90B51B0022DF71 /* Info.plist */,
 				1C69452D2BB1BB13008EEB38 /* InfoPlist.xcstrings */,
 			);

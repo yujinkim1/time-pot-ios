@@ -34,6 +34,7 @@
 		1CF7EF052BB725B60026CB6F /* NotFoundModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF042BB725B60026CB6F /* NotFoundModeView.swift */; };
 		1CF7EF082BB72D7D0026CB6F /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF7EF072BB72D7D0026CB6F /* UITableView+Extension.swift */; };
 		1CFD887E2BCEBB650040A616 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD887D2BCEBB650040A616 /* AuthView.swift */; };
+		1CFD88802BD0177B0040A616 /* TouchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFD887F2BD0177B0040A616 /* TouchableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +85,7 @@
 		1CF7EF042BB725B60026CB6F /* NotFoundModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotFoundModeView.swift; sourceTree = "<group>"; };
 		1CF7EF072BB72D7D0026CB6F /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
 		1CFD887D2BCEBB650040A616 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		1CFD887F2BD0177B0040A616 /* TouchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -246,6 +248,7 @@
 				1C6945122BB07F7D008EEB38 /* BaseCollectionViewCell.swift */,
 				1C69452F2BB1C0C7008EEB38 /* TouchableImageView.swift */,
 				1C4FE6112BBEF055005DDE67 /* BaseTableViewCell.swift */,
+				1CFD887F2BD0177B0040A616 /* TouchableView.swift */,
 			);
 			path = Basement;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CFD88802BD0177B0040A616 /* TouchableView.swift in Sources */,
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
 				1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */,
 				1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */,

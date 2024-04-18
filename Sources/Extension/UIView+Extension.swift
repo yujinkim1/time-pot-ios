@@ -84,3 +84,21 @@ extension UIView {
         }
     }
 }
+
+extension UIView {
+    func tap(_ handler: (() -> Void)?) {
+        self.isUserInteractionEnabled = true
+        
+        objc_setAssociatedObject(self, "tap", handler, .OBJC_ASSOCIATION_COPY_NONATOMIC)
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapHandler(_:)))
+        self.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc
+    private func tapHandler(_ sender: UITapGestureRecognizer) {
+        if let handler = objc_getAssociatedObject(self, "tap") as? (() -> Void) {
+            handler()
+        }
+    }
+}

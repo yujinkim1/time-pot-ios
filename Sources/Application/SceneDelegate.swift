@@ -9,6 +9,7 @@ import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     var window: UIWindow?
+    var scene: UIScene?
 
     func scene(
         _ scene: UIScene,
@@ -17,10 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     ) {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
-        window = UIWindow(windowScene: windowScene)
-        window?.windowScene = windowScene
-        window?.rootViewController = MainViewController()
-        window?.makeKeyAndVisible()
+        self.setRootViewController(rootViewController: MainViewController())
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {}
@@ -32,4 +30,19 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func sceneWillEnterForeground(_ scene: UIScene) {}
 
     func sceneDidEnterBackground(_ scene: UIScene) {}
+}
+
+extension SceneDelegate {
+    private func setRootViewController(rootViewController: UIViewController) {
+        if let scene = (self.scene as? UIWindowScene) {
+            self.window = UIWindow(frame: scene.coordinateSpace.bounds)
+            self.window?.windowScene = scene
+            self.window?.rootViewController = rootViewController
+            self.window?.makeKeyAndVisible()
+            
+            debugPrint("\(#function) -- Scene connection succeeded.")
+        } else {
+            debugPrint("\(#function) -- Scene connection failed.")
+        }
+    }
 }

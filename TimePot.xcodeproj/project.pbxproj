@@ -13,8 +13,6 @@
 		1C4FE6172BBF0BE7005DDE67 /* ModeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */; };
 		1C4FE6192BBF15AF005DDE67 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6182BBF15AF005DDE67 /* MainView.swift */; };
 		1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */; };
-		1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */; };
-		1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4FE6292BC02561005DDE67 /* TimeRecord.swift */; };
 		1C585BD42BCC2562001CACC6 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1C585BD32BCC2562001CACC6 /* FirebaseAnalytics */; };
 		1C585BDD2BCC289B001CACC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585BDA2BCC289B001CACC6 /* AppDelegate.swift */; };
 		1C585BDE2BCC289B001CACC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C585BDB2BCC289B001CACC6 /* SceneDelegate.swift */; };
@@ -61,8 +59,6 @@
 		1C4FE6162BBF0BE7005DDE67 /* ModeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModeCell.swift; sourceTree = "<group>"; };
 		1C4FE6182BBF15AF005DDE67 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		1C4FE6242BC00A00005DDE67 /* SwiftDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataService.swift; sourceTree = "<group>"; };
-		1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorage.swift; sourceTree = "<group>"; };
-		1C4FE6292BC02561005DDE67 /* TimeRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRecord.swift; sourceTree = "<group>"; };
 		1C585BDA2BCC289B001CACC6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C585BDB2BCC289B001CACC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1C585BDF2BCC2951001CACC6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -169,14 +165,6 @@
 			path = Service;
 			sourceTree = "<group>";
 		};
-		1C4FE6262BC01CBF005DDE67 /* Utility */ = {
-			isa = PBXGroup;
-			children = (
-				1C4FE6272BC01CD2005DDE67 /* LocalStorage.swift */,
-			);
-			path = Utility;
-			sourceTree = "<group>";
-		};
 		1C585BDC2BCC289B001CACC6 /* Application */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,7 +207,6 @@
 			isa = PBXGroup;
 			children = (
 				1C585BDC2BCC289B001CACC6 /* Application */,
-				1C4FE6262BC01CBF005DDE67 /* Utility */,
 				1C4FE6232BC009A0005DDE67 /* Service */,
 				1C4FE60E2BBEEE2E005DDE67 /* Presentation */,
 				1C4FE60A2BBEE443005DDE67 /* Resource */,
@@ -266,7 +253,6 @@
 			isa = PBXGroup;
 			children = (
 				1CF7EF012BB70B8F0026CB6F /* Mode.swift */,
-				1C4FE6292BC02561005DDE67 /* TimeRecord.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -422,11 +408,9 @@
 			files = (
 				1CFD88802BD0177B0040A616 /* TouchableView.swift in Sources */,
 				1C6945302BB1C0C7008EEB38 /* TouchableImageView.swift in Sources */,
-				1C4FE62A2BC02561005DDE67 /* TimeRecord.swift in Sources */,
 				1C4FE6252BC00A00005DDE67 /* SwiftDataService.swift in Sources */,
 				1C4FE6152BBEF422005DDE67 /* NewModeCell.swift in Sources */,
 				1C6945112BB07A38008EEB38 /* ObservableKeyboardViewController.swift in Sources */,
-				1C4FE6282BC01CD2005DDE67 /* LocalStorage.swift in Sources */,
 				1CF7EF052BB725B60026CB6F /* NotFoundModeView.swift in Sources */,
 				1C4FE6122BBEF055005DDE67 /* BaseTableViewCell.swift in Sources */,
 				1CFD887E2BCEBB650040A616 /* AuthView.swift in Sources */,

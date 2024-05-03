@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  TimePot
 //
-//  Created by Yujin Kim on 2024-05-08.
+//  Created by Yujin Kim on 2024-05-03.
 //  Copyright © 2024 yujinkim1. All rights reserved.
 	
 

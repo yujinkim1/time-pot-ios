@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1CB4B9572BEB73D20091E362 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4B9562BEB73D20091E362 /* AppDelegate.swift */; };
+		1CB4B9592BEB75E20091E362 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB4B9582BEB75E20091E362 /* SceneDelegate.swift */; };
 		1CF8116E2BE3CF62009CC2DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF811682BE3CF62009CC2DA /* Preview Assets.xcassets */; };
 		1CF8116F2BE3CF62009CC2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CF8116A2BE3CF62009CC2DA /* Assets.xcassets */; };
 		1CF811702BE3CF62009CC2DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF8116B2BE3CF62009CC2DA /* ContentView.swift */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		1C8A91DC2BE3CD3800A7F1BC /* TimePot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CB4B9562BEB73D20091E362 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CB4B9582BEB75E20091E362 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1CF811682BE3CF62009CC2DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1CF8116A2BE3CF62009CC2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1CF8116B2BE3CF62009CC2DA /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			children = (
 				1CF8116C2BE3CF62009CC2DA /* TimePotApp.swift */,
 				1CB4B9562BEB73D20091E362 /* AppDelegate.swift */,
+				1CB4B9582BEB75E20091E362 /* SceneDelegate.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CB4B9592BEB75E20091E362 /* SceneDelegate.swift in Sources */,
 				1CB4B9572BEB73D20091E362 /* AppDelegate.swift in Sources */,
 				1CF8118C2BE3DBCC009CC2DA /* FileHeaderTest.swift in Sources */,
 				1CF811712BE3CF62009CC2DA /* TimePotApp.swift in Sources */,
